@@ -1,0 +1,229 @@
+*{font-size:12px;}
+body {font-family:helvetica,tahoma,verdana,sans-serif;padding:20px;font-size:13px;margin:0;}
+h2 {font-size:18px;font-weight:bold;margin:0;margin-bottom:15px;}
+
+.grid {
+    border: 1px solid #8DB2E3;
+    font: 12px arial,helvetica,sans-serif;
+}
+.grid td {
+    font: 100% arial,helvetica,sans-serif;
+    height: 24px;
+    padding: 5px;
+}
+.grid {
+    border-collapse: collapse;
+    width: 100%;
+}
+.grid th {
+    background: none repeat scroll 0 0 #E7F3FE;
+    border: 1px solid #8DB2E3;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 5px;
+}
+.grid td {
+    border: 1px solid #8DB2E3;
+    padding-left: 5px;
+}
+
+
+#layout_west_tree li ul li div{padding:5px 5px 3px 5px;}
+#layout_west_tree li div{padding:5px 5px 3px 10px;}
+
+#header{overflow:hidden;height:69px;background:#2076C3 url("images/index/headbg.png") repeat-x;line-height:64px;color:#fff;font-family:Verdana,寰蒋闆呴粦,榛戜綋}
+.header{background: url(images/index/logo.png) no-repeat left; width: 620px; height: 64px; float: left;}
+
+.light-info{background:#FFFEE6;color:#8F5700;padding:12px;}
+.light-tip{width:16px;height:16px;margin-right:8px;float:left;}
+
+.icon-search{background: url('images/ext/search.png') no-repeat center center;}
+.icon-cancel{background: url('images/ext/cancel.png') no-repeat center center;}
+.icon-company{background: url('images/ext/company.png') no-repeat center center;}
+.icon-dic{background: url('images/ext/dic.png') no-repeat center center;}
+.icon-folder{background: url('images/ext/folder.png') no-repeat center center;}
+.icon-add{background: url('images/ext/add.png') no-repeat center center;}
+.icon-home{background: url('images/ext/home.png') no-repeat center center;}
+.icon-refresh{background: url('images/ext/refresh.png') no-repeat center center;}
+.icon-org{background: url('images/ext/org.png') no-repeat center center;}
+.icon-orange{background: url('images/ext/orange.png') no-repeat center center;}
+.icon-resource{background: url('images/ext/resource.png') no-repeat center center;}
+.icon-role{background: url('images/ext/role.png') no-repeat center center;}
+.icon-user{background: url('images/ext/user.png') no-repeat center center;}
+.icon-del{background: url('images/ext/del.png') no-repeat center center;}
+.icon-sys {background: url('images/ext/sys.png') no-repeat center center;}
+.icon-ahead{background: url('images/ext/ahead.png') no-repeat center center;}
+.icon-back {background: url('images/ext/back.png') no-repeat center center;}
+.icon-edit-remove{background: url('images/ext/edit_remove.png') no-repeat center center;}
+.icon-filesave{background: url('images/ext/filesave.png') no-repeat center center;}
+
+.icon-edit{background: url('images/icons/pencil.png') no-repeat center center;}
+.icon-enable{background:url('images/icons/enable.png') no-repeat;}
+.icon-stop{background:url('images/icons/stop.png') no-repeat;}
+.icon-theme{background:url('images/icons/theme.png') no-repeat;}
+.icon-database{background:url('images/icons/database.png') no-repeat;}
+.icon-auth{background:url('images/icons/auth.png') no-repeat;}
+.icon-menu{background:url('images/icons/menu.png') no-repeat;}
+.icon-group{background:url('images/icons/group.png') no-repeat;}
+.icon-bug{background:url('images/icons/bug.png') no-repeat;}
+.icon-druid{background:url('images/icons/druid.png') no-repeat;}
+.icon-panel{background:url('images/icons/panel.png') no-repeat;}
+.icon-quit{background:url('images/icons/quit.png') no-repeat;}
+.icon-blank{background:url('images/icons/blank.png') no-repeat;}
+.icon-remove{background:url('images/icons/edit_remove.png') no-repeat;}
+.icon-save{background:url('images/icons/filesave.png') no-repeat;}
+.icon-cut{background:url('images/icons/cut.png') no-repeat;}
+.icon-ok{background:url('images/icons/ok.png') no-repeat;}
+.icon-no{background:url('images/icons/no.png') no-repeat;}
+.icon-cancel{background:url('images/icons/cancel.png') no-repeat;}
+.icon-reload{background:url('images/icons/reload.png') no-repeat;}
+.icon-search{background:url('images/icons/search.png') no-repeat;}
+.icon-print{background:url('images/icons/print.png') no-repeat;}
+.icon-help{background:url('images/icons/help.png') no-repeat;}
+.icon-undo{background:url('images/icons/undo.png') no-repeat;}
+.icon-redo{background:url('images/icons/redo.png') no-repeat;}
+.icon-back{background:url('images/icons/back.png') no-repeat;}
+.icon-sum{background:url('images/icons/sum.png') no-repeat;}
+.icon-tip{background:url('images/icons/tip.png') no-repeat;}
+.icon-mini-add{background:url('images/icons/mini_add.png') no-repeat 2px 2px;}
+.icon-mini-edit{background:url('images/icons/mini_edit.png') no-repeat 2px 2px;}
+.icon-mini-refresh{background:url('images/icons/mini_refresh.png') no-repeat 3px 2px;}
+.icon-more{background:url('images/icons/more.png') no-repeat center center;}
+
+/* 自定义新增图标 */
+.eu-icon-full_screen,.eu-icon-exit_full_screen,.eu-icon-mini-cancel,.eu-icon-essh,.eu-icon-jfit_logo,.ext-icon-cross,.ext-icon-zoom,.ext-icon-zoom_in,.ext-icon-zoom_out,.eu-icon-next,.eu-icon-gears,.eu-icon-application,.eu-icon-user,.eu-icon-user_red,.eu-icon-lock,.eu-icon-group,.eu-icon-date,.eu-icon-calendar,.eu-icon-bug,.eu-icon-email,.eu-icon-folder,.eu-icon-book,.eu-icon-computer,.eu-icon-database,.eu-icon-disk,.eu-icon-help,.eu-icon-link,.eu-icon-server,.eu-icon-film,.eu-icon-map,.eu-icon-monitor,.eu-icon-printer,.eu-icon-camera,.eu-icon-television,.eu-icon-ipod,.eu-icon-vcard,.eu-icon-world,.eu-icon-chart_bar,.eu-icon-chart_curve,.eu-icon-chart_line,.eu-icon-chart_pie,.eu-icon-back,.eu-icon-filter,.eu-icon-announcement,.eu-icon-msg_more,.eu-icon-star_blue,.eu-icon-star_gray,.eu-icon-star_yellow,.eu-icon-work_blue,.eu-icon-mail_compose,.eu-icon-mail_delete,.eu-icon-mail_delete_complete,.eu-icon-mail_find,.eu-icon-mail_forward,.eu-icon-mail_mark_read,.eu-icon-mail_purple,.eu-icon-mail_reply,.eu-icon-mail_reply_sender,.eu-icon-mail_restore,.eu-icon-mail_send,.eu-icon-mail_send_op,.eu-icon-mail_nuread,.eu-icon-mail_view,.eu-icon-mail_write,.eu-icon-done,.eu-icon-key,.eu-icon-over,.eu-icon-start,.eu-icon-todo,.eu-icon-work{background: url('images/icons/icon.png') no-repeat;}
+.eu-icon-full_screen{ background-position:0px 0px;}
+.eu-icon-exit_full_screen { background-position:-26px 0px;}
+.eu-icon-mini-cancel { background-position:-130px 0px;}
+.eu-icon-essh { background-position:-52px 0px;}
+.eu-icon-jfit_logo {background-position:-78px 0px;}
+.ext-icon-cross {background-position:0px 26px;}
+.ext-icon-zoom {background-position:-26px -26px;}
+.ext-icon-zoom_in {background-position:-52px -26px;}
+.ext-icon-zoom_out {background-position:-78px -26px;}
+.eu-icon-next {background-position:-104px 0px;}
+.eu-icon-gears {background-position:0px -52px;}
+.eu-icon-application {background-position:-26px -52px;}
+.eu-icon-user {background-position:-52px -52px;}
+.eu-icon-user_red {background-position:-78px -52px;}
+.eu-icon-lock {background-position:-104px -52px;}
+.eu-icon-group {background-position:-130px -52px;}
+.eu-icon-date {background-position:-156px -52px;}
+.eu-icon-calendar {background-position:-182px -52px;}
+.eu-icon-bug {background-position:-208px -52px;}
+.eu-icon-email {background-position:0px -78px;}
+.eu-icon-folder {background-position:-26px -78px;}
+.eu-icon-book {background-position:-52px -78px;}
+.eu-icon-computer {background-position:-78px -78px;}
+.eu-icon-database {background-position:-104px -78px;}
+.eu-icon-disk {background-position:-130px -78px;}
+.eu-icon-help {background-position:-156px -78px;}
+.eu-icon-link {background-position:-182px -78px;}
+.eu-icon-server {background-position:-208px -78px;}
+.eu-icon-film {background-position:0px -104px;}
+.eu-icon-map {background-position:-26px -104px;}
+.eu-icon-monitor {background-position:-52px -104px;}
+.eu-icon-printer {background-position:-78px -104px;}
+.eu-icon-camera {background-position:-104px -104px;}
+.eu-icon-television {background-position:-130px -104px;}
+.eu-icon-ipod {background-position:-156px -104px;}
+.eu-icon-vcard {background-position:-182px -104px;}
+.eu-icon-world {background-position:-208px -104px;}
+.eu-icon-chart_bar {background-position:0px -130px;}
+.eu-icon-chart_curve {background-position:-26px -130px;}
+.eu-icon-chart_line {background-position:-52px -130px;}
+.eu-icon-chart_pie {background-position:-78px -130px;}
+.eu-icon-back{background-position:0px -156px;}
+.eu-icon-filter{background-position:-26px -156px;}
+.eu-icon-announcement{background-position:-52px -156px;}
+.eu-icon-msg_more{background-position:-78px -156px;}
+.eu-icon-star_blue{background-position:-104px -156px;}
+.eu-icon-star_gray{background-position:-130px -156px;}
+.eu-icon-star_yellow{background-position:-156px -156px;}
+.eu-icon-work_blue{background-position:-182px -156px;}
+.eu-icon-mail_compose{background-position:-208px -156px;}
+.eu-icon-mail_delete{background-position:-234px -156px;}
+.eu-icon-mail_delete_complete{background-position:-260px -156px;}
+.eu-icon-mail_find{background-position:-286px -156px;}
+.eu-icon-mail_forward{background-position:-312px -156px;}
+.eu-icon-mail_mark_read{background-position:-338px -156px;}
+.eu-icon-mail_purple{background-position:-364px -156px;}
+.eu-icon-mail_reply{background-position:-390px -156px;}
+.eu-icon-mail_reply_sender{background-position:-416px -156px;}
+.eu-icon-mail_restore{background-position:0px -182px;}
+.eu-icon-mail_send{background-position:-26px -182px;}
+.eu-icon-mail_send_op{background-position:-52px -182px;}
+.eu-icon-mail_nuread{background-position:-78px -182px;}
+.eu-icon-mail_view{background-position:-104px -182px;}
+.eu-icon-mail_write{background-position:-130px -182px;}
+.eu-icon-done{background-position:-156px -182px;}
+.eu-icon-key{background-position:-182px -182px;}
+.eu-icon-over{background-position:-208px -182px;}
+.eu-icon-start{background-position:-234px -182px;}
+.eu-icon-todo{background-position:-260px -182px;}
+.eu-icon-work{background-position:-286px -182px;}
+.eu-icon-setting{background:url('images/icons/setting.png') no-repeat center center;}
+.eu-icon-more{ background:url('images/icons/more.png') no-repeat center center;}
+.eu-icon-work_jf{background:url('images/icons/work.png') no-repeat center center;}
+.eu-icon-meeting{background:url('images/icons/meeting.png') no-repeat center center;}
+.eu-icon-trip{background:url('images/icons/trip.png') no-repeat center center;}
+.eu-icon-leave{background:url('images/icons/leave.png') no-repeat center center;}
+.eu-icon-organ-root{background:url('images/icons/organ.png') no-repeat center center;}
+.eu-icon-user_red{background:url('images/icons/user_red.png') no-repeat center center;}
+
+/*网站管理下的导航菜单图标*/
+.eu-icon-application_osx{background:url('images/icons/application_osx.png') no-repeat;}
+.eu-icon-application_put{background:url('images/icons/application_put.png') no-repeat;}
+.eu-icon-sitemap_color{background:url('images/icons/sitemap_color.png') no-repeat;}
+.eu-icon-page_white_swoosh{background:url('images/icons/page_white_swoosh.png') no-repeat;}
+.eu-icon-page_white_code{background:url('images/icons/page_white_code.png') no-repeat;}
+.eu-icon-folder_page_white{background:url('images/icons/folder_page_white.png') no-repeat;}
+.eu-icon-comment{background:url('images/icons/comment.png') no-repeat;}
+.eu-icon-comments{background:url('images/icons/comments.png') no-repeat;}
+
+/*disk*/
+.eu-icon-disk_user{ background:url('images/icons/disk/weiyun.png') no-repeat center center;}
+.eu-icon-disk_organ{background:url('images/icons/disk/sync.png') no-repeat center center;}
+.eu-icon-disk_public{background:url('images/icons/disk/airport_extreme.png') no-repeat center center;}
+.eu-icon-disk_download{background:url('images/icons/disk/download.png') no-repeat center center;}
+.eu-icon-disk_search{background:url('images/icons/disk/search.png') no-repeat;}
+.eu-icon-disk_recent_visit{background:url('images/icons/disk/recent_visit.png') no-repeat;}
+.eu-icon-disk_notice{background:url('images/icons/disk/notice.png') no-repeat;}
+.eu-icon-disk_folder_add{background:url('images/icons/disk/folder_add.png') no-repeat;}
+.eu-icon-disk_yunpan{background:url('images/icons/disk/cloud.png') no-repeat;}
+.eu-icon-disk_favorites{background:url('images/icons/disk/favorites.png') no-repeat;}
+.eu-icon-disk_up{background:url('images/icons/disk/up.png') no-repeat;}
+.eu-icon-disk_down{background:url('images/icons/disk/down.png') no-repeat;}
+.eu-icon-disk_organ{background:url('images/icons/disk/sync.png') no-repeat;}
+.eu-icon-disk_public{background:url('images/icons/disk/airport_extreme.png') no-repeat;}
+.eu-icon-disk_share{background:url('images/icons/disk/share.png') no-repeat;}
+.eu-icon-cancel{background:url('images/icons/disk/cancel.png') no-repeat;}
+.eu-icon-upload{background:url('images/icons/disk/upload.png') no-repeat;}
+.eu-icon-disk_collect{background:url('images/icons/disk/store.png') no-repeat;}
+
+/*notice*/
+.eu-icon-notice_publish{background: url('images/icons/notice/publish.png') no-repeat;}
+.eu-icon-notice_user_comment{background: url('images/icons/notice/user_comment.png') no-repeat;}
+.eu-icon-notice_stop{background: url('images/icons/notice/stop.png') no-repeat;}
+
+/*mail*/
+.eu-icon-mail_email_edit{background: url('images/icons/mail/email_edit.png') no-repeat;}
+.eu-icon-mail_emails{background: url('images/icons/mail/emails.png') no-repeat;}
+.eu-icon-mail_unread{background: url('images/icons/mail/mail_unread.png') no-repeat;}
+.eu-icon-mail_trash{background: url('images/icons/mail/mail_trash.png') no-repeat;}
+
+.easy-icon-man{
+    background:url('images/icons/man.png') no-repeat center center;
+}
+.easy-icon-lock{
+    background:url('images/icons/lock.png') no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
