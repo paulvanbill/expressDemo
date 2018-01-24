@@ -14,9 +14,12 @@
     "express": "~4.15.5",
     "express-session": "^1.15.6",
     "jade": "~1.11.0",
+    "log4js": "^2.5.2",
     "morgan": "~1.9.0",
     "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
     "node-mysql": "^0.4.2",
+    "sequelize": "^4.32.1",
     "serve-favicon": "~2.4.5"
   }
 }
